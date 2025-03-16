@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unlock-processpool-win"
+version = "1.0.4"
+authors = [
+    {name = "Half open flowers", email = "1816524875@qq.com"}
+]
+description = "Unlock ProcessPoolExecutor's worker limit on Windows"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+Homepage = "https://github.com/JackLFH/unlock-processpool"
+
+[tool.setuptools]
+license-files = []  # 明确禁用自动生成license-file
+packages = ["unlock_processpool"]
