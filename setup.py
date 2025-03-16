@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="unlock-processpool-win",
+    name="unlock-processpool",
     version="1.0.2",
     author="Half open flowers",
     author_email="1816524875@qq.com",
     description="Unlock ProcessPoolExecutor's worker limit on Windows",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/unlock-processpool-win",
+    url="https://github.com/JackLFH/unlock-processpool",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
