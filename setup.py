@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="unlock-processpool-win",
-    version="2.1.0",
+    version="2.2.0",
     author="Half open flowers",
     author_email="1816524875@qq.com",
-    description="Unlock ProcessPoolExecutor's worker limit on Windows",
+    description="Unlock Windows process limit for ProcessPoolExecutor and joblib (61->508 workers)",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/JackLFH/unlock-processpool",
