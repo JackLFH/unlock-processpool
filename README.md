@@ -8,6 +8,7 @@
 - 解除 Windows 平台默认 61 进程限制
 - 支持 Python 3.8-3.12
 - 无需修改系统配置
+- 兼容joblib和ProcessPoolExecutor的统一解锁器
 
 ## 安装方法
 ```bash
