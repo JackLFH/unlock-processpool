@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "unlock-processpool-win"
-version = "2.1.0"
+version = "2.2.0"
 authors = [
     {name = "Half open flowers", email = "1816524875@qq.com"}
 ]
-description = "Unlock ProcessPoolExecutor's worker limit on Windows"
+description = "Unlock Windows process limit for ProcessPoolExecutor and joblib (61->508 workers)"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "BSD-3-Clause"}
